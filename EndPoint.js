@@ -4,6 +4,7 @@ const router=express.Router();
 
 const port=3000;
 
+router.use(express.json());
 
 router.get('/',(req,res)=>{
     res.send("This is a home page and getReguest");

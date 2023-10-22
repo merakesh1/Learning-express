@@ -11,11 +11,11 @@ console.log(path.join(__dirname,'index.html'));
 // console.log(Math.min(10,20));
 
 function customMiddleWare(req,res,next){
-    console.log("THis is a modlleware from index.js");
+    console.log("THis is a middleware from index.js");
     next();
 }
 
-express.use(e.json());
+// express.use(e.json());
 
 express.use(customMiddleWare);
 
