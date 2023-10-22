@@ -21,11 +21,6 @@ express.use(customMiddleWare);
 
 express.use('/',EndPoint);
 
-express.use('/login',EndPoint);
-
-express.use('/post/:id',EndPoint);
-
-express.use('/delete/:id',EndPoint);
 
 
 /* express.use(e.static(path.join(__dirname,'public')));
