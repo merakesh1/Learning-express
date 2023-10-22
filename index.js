@@ -21,8 +21,6 @@ express.use(customMiddleWare);
 
 express.use('/',EndPoint);
 
-
-
 /* express.use(e.static(path.join(__dirname,'public')));
 
 express.use((req,res,next)=>{
